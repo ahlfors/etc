@@ -1,0 +1,11 @@
+# BEGIN hosts added by Network Connect
+123.125.113.25   yidong.baidu.com
+# END hosts added by Network Connect
+#
+# /etc/hosts: static lookup table for host names
+#
+
+#<ip-address>	<hostname.domain.org>	<hostname>
+127.0.0.1	localhost.localdomain	localhost ly50247
+::1		localhost.localdomain	localhost ly50247
+
