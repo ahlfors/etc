@@ -1,5 +1,5 @@
 GRUB_DEFAULT=0
-GRUB_TIMEOUT=1
+GRUB_TIMEOUT=2
 GRUB_DISTRIBUTOR="Arch"
 #GRUB_CMDLINE_LINUX_DEFAULT="quiet"
 GRUB_CMDLINE_LINUX="init=/bin/systemd systemd.log_level=debug systemd.log_target=kmsg log_buf_len=1M enforcing=0"
@@ -8,7 +8,7 @@ GRUB_CMDLINE_LINUX="init=/bin/systemd systemd.log_level=debug systemd.log_target
 GRUB_PRELOAD_MODULES="part_gpt part_msdos"
 
 # Uncomment to enable Hidden Menu, and optionally hide the timeout count
-#GRUB_HIDDEN_TIMEOUT=2
+#GRUB_HIDDEN_TIMEOUT=5
 #GRUB_HIDDEN_TIMEOUT_QUIET=true
 
 # Uncomment to use basic console
@@ -38,8 +38,8 @@ GRUB_DISABLE_RECOVERY=true
 #GRUB_COLOR_HIGHLIGHT="light-cyan/blue"
 
 # Uncomment one of them for the gfx desired, a image background or a gfxtheme
-GRUB_BACKGROUND="/boot/grub/.jpg"
-#GRUB_THEME="/boot/grub/themes/starfield/theme.txt"
+GRUB_BACKGROUND="/boot/grub/themes/.jpg"
+#GRUB_THEME="/path/to/gfxtheme"
 
 # Uncomment to get a beep at GRUB start
 #GRUB_INIT_TUNE="480 440 1"
