@@ -6,7 +6,7 @@ debuginfo = 0
 
 [gae]
 appid = lyproxy1|lyproxy2|lyproxy3|lyproxy4|lyproxy5|lyproxy6|lyproxy7|lyproxy8|lyproxy9|lyproxy10|lyproxy11|lyproxy12|lyproxy13|lyproxy14|lyproxy15|lyproxy16|lyproxy17|lyproxy18|lyproxy19
-password = 
+password =
 path = /fetch.py
 profile = google_cn
 mulconn = 1
@@ -33,10 +33,10 @@ withgae = plus.google.com|plusone.google.com|reader.googleusercontent.com|music.
 
 [google_hk]
 mode = https
-hosts = www.google.com|mail.google.com|www.google.com.hk
+hosts = www.google.com|mail.google.com|www.l.google.com|maps.google.com|map.google.com
 sites = .google.com|.googleusercontent.com|.googleapis.com|.google-analytics.com|.googlecode.com|.google.com.hk|.googlegroups.com
 forcehttps = groups.google.com|code.google.com|mail.google.com|docs.google.com|profiles.google.com|developer.android.com|www.google.com.hk|webcache.googleusercontent.com
-withgae = plus.google.com|plusone.google.com|reader.googleusercontent.com|music.google.com|apis.google.com|feedproxy.google.com|books.google.com
+withgae = translate.googleapis.com|plus.url.google.com|plus.google.com|plusone.google.com|reader.googleusercontent.com|music.google.com|apis.google.com|feedproxy.google.com|books.google.com
 
 [google_ipv6]
 mode = http
@@ -48,7 +48,7 @@ withgae =
 [autorange]
 hosts = .youtube.com|.atm.youku.com|.googlevideo.com|av.vimeo.com|smile-*.nicovideo.jp|video.*.fbcdn.net|s*.last.fm|x*.last.fm
 threads = 2
-maxsize = 4194304
+maxsize = 1048576
 waitsize = 524288
 bufsize = 8192
 
@@ -68,6 +68,7 @@ enable = 1
 ip = 127.0.0.1
 port = 8086
 file = proxy.pac
+gfwlist = http://autoproxy-gfwlist.googlecode.com/svn/trunk/gfwlist.txt
 
 [useragent]
 enable = 0
@@ -79,7 +80,7 @@ server =
 
 [love]
 enable = 1
-timestamp = 1348798496
+timestamp = 1349113502
 tip = \u8bf7\u5173\u6ce8\u5317\u4eac\u5931\u5b66\u513f\u7ae5~~
 
 [hosts]
