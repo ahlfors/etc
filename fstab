@@ -2,10 +2,6 @@
 # /etc/fstab: static file system information
 #
 # <file system>	<dir>	<type>	<options>	<dump>	<pass>
-tmpfs		/tmp	tmpfs	nodev,nosuid	0	0
-# UUID=d939d5d8-486b-4524-be63-0637e409da9e
-/dev/sda3           	/         	ext4      	rw,relatime,data=ordered	0 1
-
-# UUID=85b794b7-3c55-40af-be61-e8f458da9e6e
-/dev/sda4           	/home     	ext4      	rw,relatime,data=ordered	0 2
-/dev/sda2           	/home/osily/data/data     	ext4      	rw,relatime,data=ordered	0 2
+tmpfs		/tmp	tmpfs	nodev,nosuid,noatime	0	0
+/dev/sda2 / ext4 noatime,barrier=0 0 1
+/dev/sda3 /home ext4 noatime,barrier=0 0 1
