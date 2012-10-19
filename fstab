@@ -3,5 +3,5 @@
 #
 # <file system> <dir>               <type> <options>                         <dump> <pass>
 tmpfs           /tmp                tmpfs  nodev,nosuid,relatime              0      0
-/dev/sda3       /                   ext4   relatime                           0      1
-/dev/sda4       /home               ext4   relatime                           0      2
+/dev/sda2       /                   ext4   relatime                           0      1
+/dev/sda3       /home               ext4   relatime                           0      2
