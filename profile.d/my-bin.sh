@@ -1,1 +1,1 @@
-export PATH=$PATH:/home/osily/.bin
+export PATH=/home/osily/.bin:$PATH
