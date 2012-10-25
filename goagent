@@ -8,7 +8,7 @@ debuginfo = 0
 appid = lyproxy1|lyproxy2|lyproxy3|lyproxy4|lyproxy5|lyproxy6|lyproxy7|lyproxy8|lyproxy9|lyproxy10|lyproxy11|lyproxy12|lyproxy13|lyproxy14|lyproxy15|lyproxy16|lyproxy17|lyproxy18|lyproxy19
 password = 
 path = /2
-profile = google_cn
+profile = google_hk
 crlf = 1
 
 [pac]
@@ -22,7 +22,8 @@ gfwlist = http://autoproxy-gfwlist.googlecode.com/svn/trunk/gfwlist.txt
 enable = 0
 password = 123456
 listen = 127.0.0.1:8088
-fetchserver = http://1..duapp.com/
+isphp = 0
+fetchserver = http://demo.duapp.com/index.php
 
 [proxy]
 enable = 0
@@ -32,18 +33,18 @@ username = username
 password = 123456
 
 [google_cn]
-mode = http
+mode = https
 hosts = 203.208.47.1|203.208.47.2|203.208.47.3|203.208.47.4|203.208.47.5|203.208.47.6|203.208.47.7|203.208.47.8
 sites = .google.com|.googleusercontent.com|.googleapis.com|.google-analytics.com|.googlecode.com|.google.com.hk|.appspot.com|.android.com|.googlegroups.com
-forcehttps = groups.google.com|code.google.com|mail.google.com|docs.google.com|profiles.google.com|developer.android.com
-withgae = plus.google.com|plusone.google.com|reader.googleusercontent.com|music.google.com|apis.google.com|books.google.com
+forcehttps = www.google.com|groups.google.com|code.google.com|mail.google.com|docs.google.com|profiles.google.com|developer.android.com|www.google.com.hk|webcache.googleusercontent.com
+withgae = translate.googleapis.com|plus.url.google.com|plus.google.com|plusone.google.com|reader.googleusercontent.com|music.google.com|apis.google.com|feedproxy.google.com|books.google.com|autoproxy-gfwlist.googlecode.com
 
 [google_hk]
 mode = https
-hosts = www.google.com|www.l.google.com|mail.l.google.com|mail.google.com|maps.l.google.com|maps.google.com
+hosts = www.google.com|www.l.google.com|mail.l.google.com|mail.google.com|maps.l.google.com
 sites = .google.com|.googleusercontent.com|.googleapis.com|.google-analytics.com|.googlecode.com|.google.com.hk|.googlegroups.com
-forcehttps = groups.google.com|code.google.com|mail.google.com|docs.google.com|profiles.google.com|developer.android.com|www.google.com.hk|webcache.googleusercontent.com
-withgae = translate.googleapis.com|plus.url.google.com|plus.google.com|plusone.google.com|reader.googleusercontent.com|music.google.com|apis.google.com|feedproxy.google.com|books.google.com
+forcehttps = www.google.com|groups.google.com|code.google.com|mail.google.com|docs.google.com|profiles.google.com|developer.android.com|www.google.com.hk|webcache.googleusercontent.com
+withgae = translate.googleapis.com|plus.url.google.com|plus.google.com|plusone.google.com|reader.googleusercontent.com|music.google.com|apis.google.com|feedproxy.google.com|books.google.com|autoproxy-gfwlist.googlecode.com
 
 [google_ipv6]
 mode = http
@@ -87,7 +88,7 @@ server =
 
 [love]
 enable = 1
-timestamp = 1350927900
+timestamp = 1351104076
 tip = \u8bf7\u5173\u6ce8\u5317\u4eac\u5931\u5b66\u513f\u7ae5~~
 
 [hosts]
