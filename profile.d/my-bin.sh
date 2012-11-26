@@ -1,1 +1,1 @@
-export PATH=/home/osily/.bin:$PATH
+export PATH=/home/osily/.bin:/usr/lib/colorgcc/bin:$PATH
