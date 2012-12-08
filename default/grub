@@ -1,7 +1,6 @@
 GRUB_DEFAULT=0
 GRUB_TIMEOUT=0
 GRUB_DISTRIBUTOR="Arch"
-#GRUB_CMDLINE_LINUX_DEFAULT="quiet"
 GRUB_CMDLINE_LINUX="init=/bin/systemd"
 #GRUB_CMDLINE_LINUX="init=/bin/systemd systemd.log_level=debug systemd.log_target=kmsg log_buf_len=1M enforcing=0"
 
