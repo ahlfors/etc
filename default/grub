@@ -2,7 +2,6 @@ GRUB_DEFAULT=0
 GRUB_TIMEOUT=2
 GRUB_DISTRIBUTOR="Arch"
 GRUB_CMDLINE_LINUX="init=/bin/systemd"
-#GRUB_CMDLINE_LINUX="init=/bin/systemd systemd.log_level=debug systemd.log_target=kmsg log_buf_len=1M enforcing=0"
 
 # Preload both GPT and MBR modules so that they are not missed
 GRUB_PRELOAD_MODULES="part_gpt part_msdos"
@@ -38,7 +37,7 @@ GRUB_DISABLE_RECOVERY=true
 #GRUB_COLOR_HIGHLIGHT="light-cyan/blue"
 
 # Uncomment one of them for the gfx desired, a image background or a gfxtheme
-GRUB_BACKGROUND="/boot/grub/themes/.jpg"
+#GRUB_BACKGROUND="/boot/grub/themes/.jpg"
 #GRUB_THEME="/path/to/gfxtheme"
 
 # Uncomment to get a beep at GRUB start
