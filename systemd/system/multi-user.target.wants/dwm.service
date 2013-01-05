@@ -1,9 +1,10 @@
 [Unit]
-Description=Direct login to X
+Description=dwm
 After=systemd-user-sessions.service
 
 [Service]
 ExecStart=/bin/su osily -l -c "/bin/bash --login -c xinit"
+ExecStop=/bin/kill -15 $MAINPID
 
 [Install]
 WantedBy=graphical.target
