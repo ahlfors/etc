@@ -46,10 +46,11 @@
 
 # Output
 #USECOLOR=1
+#USEPAGER=0
 #DETAILUPGRADE=1
 #SHOWORPHANS=1
 #TERMINALTITLE=1
 
 # Command
-PACMAN="pacman-color"
+#PACMAN="pacman"
 #DIFFEDITCMD="vimdiff"
