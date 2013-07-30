@@ -2,6 +2,6 @@
 # /etc/fstab: static file system information
 #
 # <file system>  <dir>  <type>  <options>                                                                                       <dump>   <pass>
-/dev/sda3        /       btrfs  rw,relatime,compress=lzo,inode_cache,space_cache,autodefrag,nobarrier,ssd_spread,subvol=rootfs   0       1
-/dev/sda3        /home   btrfs  rw,relatime,compress=lzo,inode_cache,space_cache,autodefrag,nobarrier,ssd_spread,subvol=data     0       2
-/dev/sda2        /boot   ext4   relatime                                                                                         0       1
+/dev/sda1        /       btrfs  rw,relatime,compress=lzo,inode_cache,space_cache,autodefrag,nobarrier,ssd,ssd_spread,subvol=rootfs   0       1
+/dev/sda1        /home   btrfs  rw,relatime,compress=lzo,inode_cache,space_cache,autodefrag,nobarrier,ssd,ssd_spread,subvol=data     0       2
+#/dev/sda2        /boot   ext4   relatime                                                                                         0       1
