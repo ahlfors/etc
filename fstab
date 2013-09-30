@@ -4,4 +4,3 @@
 # <file system>  <dir>  <type>  <options>                                                                                       <dump>   <pass>
 /dev/sda1        /       btrfs  rw,relatime,compress=lzo,inode_cache,space_cache,autodefrag,nobarrier,ssd,ssd_spread,subvol=rootfs   0       1
 /dev/sda1        /home   btrfs  rw,relatime,compress=lzo,inode_cache,space_cache,autodefrag,nobarrier,ssd,ssd_spread,subvol=data     0       2
-#/dev/sda2        /boot   ext4   relatime                                                                                         0       1
