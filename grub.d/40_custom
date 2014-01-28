@@ -7,6 +7,6 @@ exec tail -n +3 $0
 menuentry "Archlinux from iso" {
     set isofile="/data/osily/data/store/iso/archlinux.iso"
     loopback loop (hd0,1)$isofile
-    linux (loop)/arch/boot/x86_64/vmlinuz archisolabel=ARCH_201307 img_dev=/dev/sda3 img_loop=$isofile
+    linux (loop)/arch/boot/x86_64/vmlinuz archisolabel=ARCH_201401 img_dev=/dev/sda1 img_loop=$isofile
     initrd (loop)/arch/boot/x86_64/archiso.img
 }
